@@ -1,8 +1,8 @@
-![wb_1x1](https://user-images.githubusercontent.com/1476820/154357977-2237d1ad-714f-4c93-954d-4a9667fa0357.png)
+![](https://github.com/workbenchapp/solana-workbench-releases/raw/main/solworkbench.png?s=200)
 
 Deploy local validators, airdrop tokens, and more with our GUI on OSX and Windows. Solana development may be like chewing glass today, but we're on a mission to change that forever.
 
-## [Download the latest release](https://github.com/workbenchapp/solana-workbench-releases/releases/tag/v0.2.1)
+## [Latest Release Notes](https://github.com/workbenchapp/solana-workbench-releases/releases/tag/v0.2.1)
 
 [Twitter](https://twitter.com/cryptoworkbench)
 [Blog](https://cryptoworkbench.substack.com/)
