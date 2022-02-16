@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Crypto Workbench
 
-You can use the [editor on GitHub](https://github.com/nathanleclaire/workbenchapp.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![wb_1x1](https://user-images.githubusercontent.com/1476820/154357977-2237d1ad-714f-4c93-954d-4a9667fa0357.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Crypto Workbench is your one stop shop for Solana development. Deploy local validators, airdrop tokens, and more with our GUI on OSX and Windows. Solana development may be like chewing glass today, but we're on a mission to change that forever.
 
-### Markdown
+## [Download the latest release](https://github.com/workbenchapp/solana-workbench-releases/releases/tag/v0.2.1)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Features:**
 
-```markdown
-Syntax highlighted code block
+- Organize accounts of interest and easily jump to Solana Explorer across various nets
+- "Whale Watch" to spot large transfers as they come in
+- Filter account program changes by program ID
+- Run local test validators in Docker and stream logs
+- Yank Anchor IDLs to examine smart contract instructions
 
-# Header 1
-## Header 2
-### Header 3
+Demos:
 
-- Bulleted
-- List
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b0V0FcI-upo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Numbered
-2. List
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GdzdUdran7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nathanleclaire/workbenchapp.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uu6ixsLQnt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
