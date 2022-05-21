@@ -2,7 +2,7 @@
 
 Deploy local validators, airdrop tokens, and more with our GUI on OSX and Windows. Solana development may be like chewing glass today, but we're on a mission to change that forever.
 
-- [Latest Release Notes](https://github.com/workbenchapp/solana-workbench-releases/releases/tag/v0.2.1)
+- [Latest Releases](https://github.com/workbenchapp/solana-workbench/releases/)
 - [Twitter](https://twitter.com/cryptoworkbench)
 - [Blog](https://cryptoworkbench.substack.com/)
 
