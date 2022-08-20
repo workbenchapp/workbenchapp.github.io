@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Lato:400,700"
+        />
+        <style>
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                font-family: Poppins;
+            }
+            body {
+                font-family: Lato;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+
+            blockquote {
+                padding-left: 15px;
+                border-left: 5px #eaebeb solid;
+            }
+        </style>
+        <title>Crypto Workbench</title>
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container-md">
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg-8">
+                    <h1 class="text-center">Crypto Workbench</h1>
+                    <h6 class="text-center text-secondary">
+                        Decentralizing the cloud with orchestration developers
+                        love
+                    </h6>
+                    <div class="d-flex justify-content-center">
+                        <img
+                            alt="Crypto workbench logo, a butteryfly silouette with blue and orange wings"
+                            src="/wblogo.png"
+                        />
+                    </div>
+                    <p>
+                        Nathan LeClaire and Sven Dowideit founded Crypto
+                        Workbench in 2022 to build an ad-hoc distributed
+                        computing solution —
+                        <a target="_blank" href="https://daonetes.com"
+                            >DAOnetes</a
+                        >. We met working at Docker in 2014 and bonded over our
+                        passion for unlocking computing’s “bicycle for the
+                        mind”.
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row justify-content-center">
+                                <img
+                                    class="w-50 border"
+                                    alt="Portrait of Nathan"
+                                    src="/nate.jpeg"
+                                />
+                            </div>
+                            <div class="row text-center justify-content-center">
+                                <h5>Nathan LeClaire</h5>
+                                <p class="text-secondary">
+                                    Docker, Honeycomb, Author for O'Reilly
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row justify-content-center">
+                                <img
+                                    class="w-50 border"
+                                    alt="Portrait of Sven"
+                                    src="/sven.png"
+                                />
+                            </div>
+                            <div class="row text-center justify-content-center">
+                                <h5>Sven Dowideit</h5>
+                                <p class="text-secondary">
+                                    Docker, Rancher, CSIRO, Portainer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        The goal of DAOnetes is to unlock a global supercomputer
+                        that is not reliant on monolithic architectures or
+                        centralized cloud providers. DAOnetes will enable you to
+                        network computers together, run workloads on them, and
+                        have a nice experience while doing so.
+                    </p>
+
+                    <h4>Why?</h4>
+                    <p>
+                        We think that moving to interoperable and shared
+                        protocols for workloads is inevitable. Let's talk about
+                        why this will happen, and then on why DAOnetes will be a
+                        part of it.
+                    </p>
+                    <h5>Why Fungible Workloads Are Inevitable</h5>
+                    <strong>Lock-in</strong>
+                    <p>
+                        Let's start with the most obvious reason: lock-in. While
+                        there are always ebbs and flows between proprietary and
+                        open technology, as in stands in 2022, large vendors
+                        have tons of leverage against their customers. By its
+                        nature, this situation will continue to foment impulses
+                        towards open systems as vendors are tempted to take
+                        advantage of this position, or even compete compete with
+                        their customers. Part and parcel with this impulse will
+                        be a desire to migrate to
+                        <i>fungible workloads</i> where the implementation
+                        details of where you are running something are fully
+                        abstracted away.
+                    </p>
+                    <p>
+                        Docker was one expression of this. As a "cloud
+                        Switzerland", its promise of portable workloads was a
+                        great step towards decoupling <i>what we do</i> from
+                        <i> where we do it </i>. The popularity of
+                        <a
+                            target="_blank"
+                            href="https://en.wikipedia.org/wiki/Serverless_computing"
+                            >serverless computing</a
+                        >
+                        is another, and growth in projects such as
+                        <a target="_blank" href="https://www.openfaas.com/"
+                            >OpenFaaS</a
+                        >
+                        demonstrates that there is demand for running such a
+                        model in a vendor neutral way.
+                    </p>
+                    <p>
+                        In
+                        <a
+                            href="https://www.lastweekinaws.com/blog/the-lock-in-you-dont-see/"
+                            >The Lock-in You Don't See</a
+                        >
+                        an article from Duckbill Group founder Corey Quinn,
+                        Corey lists three razor-sharp insights into why cloud
+                        vendors have you locked in even more tightly than it
+                        might seem at first glance:
+                    </p>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <strong
+                                >Skillsets do not transfer from one cloud to
+                                another.</strong
+                            >
+                            Once engineers have learned the nuances of one
+                            cloud, they are heavily incentivized to stick with
+                            it.
+                        </li>
+                        <li>
+                            <strong
+                                >Identity is not shared across clouds.</strong
+                            >
+                            Clouds have no system to port identity, and arguably
+                            couldn't do so if they wanted to because there is no
+                            neutral broker.
+                        </li>
+                        <li>
+                            <strong
+                                >Data tends to stay where it originated.</strong
+                            >
+                            Costs to move data are too painful once you have
+                            generated a lot of it within one particular cloud.
+                        </li>
+                    </ul>
+                    <p>
+                        Corey's conclusion, to be fair, was
+                        <i>"It's hopeless"</i> ... but what if it wasn't? What
+                        happens as the pain of this massive pile of leverage
+                        cloud providers have over you grows and grows? Fungible
+                        workloads offer one way to help do
+                        <i>something</i> about that pain, even if they can't
+                        eliminate it completely.
+                    </p>
+                    <strong>Edge Computing</strong>
+                    <p>
+                        <a href="https://en.wikipedia.org/wiki/Edge_computing"
+                            >Location sensitive computing</a
+                        >
+                        is yet another inevitable trend in our evolving world as
+                        we plug in countless devices and connect them to the
+                        Internet. Not only does each generate massive volumes of
+                        data, many of them cannot be utilitized to their full
+                        potential because they cannot connect and interoperate.
+                        Even transporting all the data we'd like to has become a
+                        pain. We are so constrained by bandwidth that
+                        <a
+                            target="_blank"
+                            href="https://aws.amazon.com/snowball/"
+                            >solutions</a
+                        >
+                        exist to literally pack up your data and ship it to the
+                        site you wish to transfer it to.
+                    </p>
+                    <p>
+                        Due to these and many other forces, an ever-increasing
+                        amount of computing is going to be happening at the
+                        location where the data you are working with exists,
+                        rather than having the data sent to where the computing
+                        happens (e.g., a datacenter in Virginia). Unfortunately,
+                        this generates a new set of problems. As anyone who has
+                        worked with on-premise software will tell you,
+                        troubleshooting and maintaining consistency across
+                        disparate environments is a source of endless headaches.
+                        Anything that helps those environments be more
+                        consistent is important, and that includes fungibility
+                        of workloads.
+                    </p>
+
+                    <strong>Auditability</strong>
+                    <p>
+                        There are also other benefits associated with
+                        fungibility, like auditability. Quoting an
+                        <a
+                            href="https://www.techtarget.com/searchsecurity/news/252523482/Amazon-CSO-Steve-Schmidt-preaches-fungible-resources-MFA"
+                            target="_blank"
+                            >interview</a
+                        >
+                        with Amazon's CSO Steve Schmidt:
+                    </p>
+
+                    <blockquote class="blockquote">
+                        The company has really focused a lot on using fungible
+                        resources now. When I first got to the company, you
+                        would ask for a specific type of machine ... And the
+                        company is now pushing towards operating using
+                        functions, as opposed to even something like containers
+                        ...
+                    </blockquote>
+
+                    <p>Fungible use of resources has security benefits:</p>
+
+                    <blockquote class="blockquote">
+                        As the security team, how do I understand what's going
+                        on [with internal team laptops]? I've talked to some of
+                        my peers [who were] running about 14 agents on their
+                        laptops. It's out of hand, whereas you can make one API
+                        call to see all of your functions ... The visibility is
+                        better, the auditability is better and the control is
+                        better.
+                    </blockquote>
+                    <p>So how will we get there?</p>
+
+                    <h5>How Blockchain Will Enable Fungible Computing</h5>
+                    <p>
+                        As we explored modern blockchain systems, we realized
+                        that they offer pieces that were missing in in the quest
+                        to build a portable computing platform. For instance:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>
+                                A neutral solution for stashing data.
+                            </strong>
+                            Bootstrapping needs a magic proprietary escape hatch
+                            like AWS DynamoDB for devices to discover each
+                            other.
+                        </li>
+                        <li>
+                            <strong>
+                                A secure agnostic solution for identity.
+                            </strong>
+                            By signing transactions, users can cryptographically
+                            approve operations, and validate that they have
+                            certain permissions.
+                        </li>
+                        <li>
+                            <strong>
+                                A system for auditing and tracking shadow IT.
+                            </strong>
+                            Visibility into Shadow IT is difficult.
+                        </li>
+                    </ul>
+
+                    <p>
+                        Another that we ran into was identity — if you are going
+                        to connect and share computers, you need some way to
+                        kickstart recognizing and delegating authority.
+                        Likewise, connecting otherwise disparate environments
+                        and sharing specifications for running your apps was
+                        impossible without a centralized service. We think web3
+                        can roll the ball forward on these issues. Things like
+                        identity, auditability, and payments are built right in
+                        and cryptographically verified. Likewise, a blockchain
+                        is a shared data store in the sky. Access to this data
+                        store can enable computers to discover each other and
+                        share information without having to trust a centralized
+                        party like a PaaS or IaaS.
+                    </p>
+
+                    <p>
+                        It will enable you to plug in and out of arbitrary
+                        clusters by leveraging the consistency that containers
+                        offer, alongside the ability of the blockchain to
+                        trustlessly transact, port identity, and form groups for
+                        delegation of responsibility. You will be able to bring
+                        your own cloud. Eventually, operations experts will
+                        bring theirs, and sell services for you to use, just
+                        like AWS does, but operated transparently.
+                    </p>
+
+                    <h5>Why DAOnetes Will Drive This Change</h5>
+
+                    Why us? Because we are experts in developer experience and
+                    making technology accessible, which will be critical to
+                    bootstrap the network. And we have a fire burning in our
+                    bellies to bring this vision to the world. This is the
+                    system that we want, and we saw no other way to build it
+                    than to start this company.
+
+                    <div class="d-flex justify-content-center">
+                        <img
+                            style="max-width: 100%"
+                            alt="DAOnetes architecture diagram. A unifying authority key (which could be a user wallet or multisig) approves adding devices to the cluster, specifications for running workloads, and scheduling on a device running with an agent."
+                            src="/arch.png"
+                        />
+                    </div>
+
+                    <h4>Try It</h4>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+        </div>
+    </body>
+</html>
